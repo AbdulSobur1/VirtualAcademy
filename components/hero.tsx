@@ -122,7 +122,18 @@ export function Hero() {
                 </div>
 
                 <div className="space-y-3">
-                  {["Email & Calendar Management", "Social Media Management", "Client Communication", "Project Management Tools"].map((skill, i) => (
+                  {[
+                    "General Virtual Assistant tools & skills",
+                    "Travel planning & travel packs",
+                    "CRM Tools",
+                    "Automation tools",
+                    "Branding as a Virtual assistant",
+                    "Portfolio Creation",
+                    "Resume & cover letter creation.",
+                    "How to apply for jobs & get clients.",
+                    "Pitching & Interview Training",
+                    "Client onboarding & client acquisition",
+                  ].map((skill, i) => (
                     <div key={i} className="flex items-start gap-3 text-foreground">
                       <div className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-accent/20">
                         <svg className="w-4 h-4 text-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor">
