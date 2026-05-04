@@ -3,6 +3,7 @@
 import { AnimatedSection } from "./animated-section"
 import { Button } from "@/components/ui/button"
 import { ArrowRight, MessageCircle, Mail, Phone } from "lucide-react"
+import Link from "next/link"
 
 export function CTASection() {
   return (
@@ -39,10 +40,10 @@ export function CTASection() {
                 size="lg"
                 className="group w-full rounded-full bg-primary-foreground px-6 text-base text-primary hover:bg-primary-foreground/90 sm:w-auto sm:px-8 sm:text-lg"
               >
-                <a href="#offers" className="justify-center">
+                <Link href="/enroll?program=premium-va-training-program" className="justify-center">
                   Enroll Now
                   <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
-                </a>
+                </Link>
               </Button>
               <Button 
                 asChild
